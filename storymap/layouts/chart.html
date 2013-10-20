@@ -1,0 +1,8 @@
+<script>
+  var storymap_data = {{{ chartParams }}}.data; 
+  // This can also be a javascript object.
+  var storymap = new VCO.StoryMap('{{ chartId }}', storymap_data);
+  window.onresize = function(event) {
+    storymap.updateDisplay();
+  }
+</script>

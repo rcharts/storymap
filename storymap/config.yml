@@ -1,0 +1,6 @@
+storymap:
+  jshead: assets/storymap.min.js
+  css: assets/storymap.css
+  cdn:
+    css: "http://cdn.knightlab.com/libs/storymapjs/latest/css/storymap.css"
+    jshead: "http://cdn.knightlab.com/libs/storymapjs/latest/js/storymap.min.js"
